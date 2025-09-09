@@ -13,13 +13,3 @@
 *   **Cursos personalizables:** Rutas de aprendizaje adaptadas al nivel del usuario.
 
 ## 🚀 Instalación
-
-```bash
-# Clona el repositorio
-git clone <<!nav>>URL_DE_TU_REPOSITORIO<<!/nav>>
-
-# Navega a la carpeta del proyecto
-cd <<!nav>>NombreDeTuApp<<!/nav>>
-
-# Instala las dependencias (ejemplo para Node.js)
-npm install
