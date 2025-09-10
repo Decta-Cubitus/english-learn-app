@@ -43,7 +43,7 @@ export function ExerciseCard({ exercise }: ExerciseCardProps) {
           </div>
         </div>
 
-        <Button className="w-full gap-2">
+        <Button className="w-full gap-2 bg-primary hover:bg-accent/20 hover:text-primary">
           <Play className="w-4 h-4" />
           Start Exercise
         </Button>

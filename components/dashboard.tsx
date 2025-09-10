@@ -176,7 +176,7 @@ export function Dashboard() {
                   <TrendingUp className="w-5 h-5 text-primary" />
                 </div>
                 <div>
-                  <p className="text-md font-bold text-primary">Accuracy</p>
+                  <p className="text-md font-bold text-primary">Progress</p>
                   <p className="text-xl font-bold text-primary">87%</p>
                 </div>
               </div>
@@ -307,7 +307,7 @@ export function Dashboard() {
                   </div>
                   <h3 className="text-lg text-primary">First Lesson</h3>
                   <p className="text-md text-pretty">Complete your first English lesson</p>
-                  <Badge className="mt-3">Earned</Badge>
+                  <Badge className="mt-3 bg-primary hover:bg-accent/20 hover:text-primary">Earned</Badge>
                 </CardContent>
               </Card>
 
@@ -318,7 +318,7 @@ export function Dashboard() {
                   </div>
                   <h3 className="text-lg text-primary">Week Warrior</h3>
                   <p className="text-md text-pretty">Study for 7 consecutive days</p>
-                  <Badge className="mt-3">Earned</Badge>
+                  <Badge className="mt-3 bg-primary hover:bg-accent/20 hover:text-primary">Earned</Badge>
                 </CardContent>
               </Card>
 
@@ -329,7 +329,7 @@ export function Dashboard() {
                   </div>
                   <h3 className="text-lg text-primary">Grammar Master</h3>
                   <p className="text-md text-pretty">Complete all grammar lessons</p>
-                  <Badge className="mt-3">
+                  <Badge className="mt-3 bg-primary hover:bg-accent/20 hover:text-primary">
                     Locked
                   </Badge>
                 </CardContent>
