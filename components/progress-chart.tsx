@@ -16,8 +16,8 @@ export function ProgressChart() {
   return (
     <ResponsiveContainer width="100%" height={200}>
       <BarChart data={data}>
-        <XAxis dataKey="day" axisLine={false} tickLine={false} className="text-md" />
-        <YAxis axisLine={false} tickLine={false} className="text-md" />
+        <XAxis dataKey="day" axisLine={true} tickLine={true} className="text-lg" />
+        <YAxis axisLine={true} tickLine={true} className="text-md" />
         <Tooltip
           content={({ active, payload, label }) => {
             if (active && payload && payload.length) {
