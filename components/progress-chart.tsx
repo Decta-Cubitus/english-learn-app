@@ -16,6 +16,7 @@ export function ProgressChart() {
   return (
     <ResponsiveContainer width="100%" height={200}>
       <BarChart data={data}>
+        <ProgressChart />
         <XAxis dataKey="day" axisLine={true} tickLine={true} className="text-lg" />
         <YAxis axisLine={true} tickLine={true} className="text-md" />
         <Tooltip
@@ -31,7 +32,7 @@ export function ProgressChart() {
             return null
           }}
         />
-        <Bar dataKey="minutes" fill="hsl(var(--primary))" radius={[4, 4, 0, 0]} />
+        <Bar dataKey="minutes" fill="hsl(var(--primary))" radius={[4, 4, 0, 0]} className="fill-primary hover:fill-accent/20" />
       </BarChart>
     </ResponsiveContainer>
   )
