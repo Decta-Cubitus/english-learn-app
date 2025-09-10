@@ -186,7 +186,7 @@ export function Dashboard() {
 
         {/* Main Content */}
         <Tabs value={activeTab} onValueChange={setActiveTab} className="space-y-6">
-          <TabsList className="flex w-full bg-balance rounded-lg justify-between gap-2">
+          <TabsList className="flex w-full flex-wrap bg-balance rounded-lg justify-between gap-2">
             <TabsTrigger value="lessons" className="flex-1 gap-2 bg-primary hover:bg-accent/20 hover:text-primary text-md">
               <BookOpen className="w-4 h-4" />
               Lessons
