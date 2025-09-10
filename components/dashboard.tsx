@@ -185,21 +185,21 @@ export function Dashboard() {
 
         {/* Main Content */}
         <Tabs value={activeTab} onValueChange={setActiveTab} className="space-y-6">
-          <TabsList className="grid w-full grid-cols-4 bg-balance gap-5 rounded-lg">
-            <TabsTrigger value="lessons" className="gap-2 bg-primary hover:bg-accent/20 hover:text-primary text-md">
-              <BookOpen className="w-4 h-4" display={"flex"} />
+          <TabsList className="flex w-full bg-balance rounded-lg justify-between gap-2">
+            <TabsTrigger value="lessons" className="flex-1 gap-2 bg-primary hover:bg-accent/20 hover:text-primary text-md">
+              <BookOpen className="w-4 h-4" />
               Lessons
             </TabsTrigger>
-            <TabsTrigger value="exercises" className="gap-2 bg-primary hover:bg-accent/20 hover:text-primary text-md">
-              <PenTool className="w-4 h-4" display={"flex"} />
+            <TabsTrigger value="exercises" className="flex-1 gap-2 bg-primary hover:bg-accent/20 hover:text-primary text-md">
+              <PenTool className="w-4 h-4" />
               Exercises
             </TabsTrigger>
-            <TabsTrigger value="progress" className="gap-2 bg-primary hover:bg-accent/20 hover:text-primary text-md">
-              <TrendingUp className="w-4 h-4" display={"flex"} />
+            <TabsTrigger value="progress" className="flex-1 gap-2 bg-primary hover:bg-accent/20 hover:text-primary text-md">
+              <TrendingUp className="w-4 h-4" />
               Progress
             </TabsTrigger>
-            <TabsTrigger value="achievements" className="gap-2 bg-primary hover:bg-accent/20 hover:text-primary text-md">
-              <Award className="w-4 h-4" display={"flex"} />
+            <TabsTrigger value="achievements" className="flex-1 gap-2 bg-primary hover:bg-accent/20 hover:text-primary text-md">
+              <Award className="w-4 h-4" />
               Achievements
             </TabsTrigger>
           </TabsList>
