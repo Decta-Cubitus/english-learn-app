@@ -14,11 +14,11 @@ const data = [
 
 export function ProgressChart() {
   return (
-    <ResponsiveContainer width="100%" height={200}>
+    <ResponsiveContainer width="100%" height={200} className="flex-wrap">
       <BarChart data={data}>
         <ProgressChart />
-        <XAxis dataKey="day" axisLine={true} tickLine={true} className="text-lg" />
-        <YAxis axisLine={true} tickLine={true} className="text-md" />
+        <XAxis dataKey="day" axisLine={true} tickLine={true} className="text-lg flex-wrap" />
+        <YAxis axisLine={true} tickLine={true} className="text-md flex-wrap" />
         <Tooltip
           content={({ active, payload, label }) => {
             if (active && payload && payload.length) {
@@ -32,7 +32,7 @@ export function ProgressChart() {
             return null
           }}
         />
-        <Bar dataKey="minutes" fill="hsl(var(--primary))" radius={[4, 4, 0, 0]} className="fill-primary hover:fill-accent/20" />
+        <Bar dataKey="minutes" fill="hsl(var(--primary))" radius={[4, 4, 0, 0]} className="fill-primary hover:fill-accent/20 flex-wrap" />
       </BarChart>
     </ResponsiveContainer>
   )

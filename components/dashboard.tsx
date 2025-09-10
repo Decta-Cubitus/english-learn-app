@@ -98,17 +98,17 @@ export function Dashboard() {
       {/* Header */}
       <header className="border-b bg-accent/20 border-card shadow-md backdrop-blur-sm sticky top-0 z-50">
         <div className="container mx-auto px-4 py-4">
-          <div className="flex items-center justify-between">
+          <div className="flex-wrap justify-between flex items-center">
             <div className="flex items-center gap-3 text-white">
-              <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center text-white">
+              <div className=" w-10 h-10 bg-primary rounded-lg flex items-center justify-center text-white">
                 <BookOpen className="w-6 h-6 text-primary-foreground" />
               </div>
-              <div>
+              <div className=" flex-wrap justify-between gap-1">
                 <h1 className="text-xl font-bold text-primary">English Learn</h1>
                 <p className="text-md text-balance">Master English with confidence</p>
               </div>
             </div>
-            <div className="flex items-center gap-4">
+            <div className=" items-center gap-4 flex w-full flex-wrap bg-balance rounded-lg justify-baseline pt-2">
               <Badge className="gap-1 text-md">
                 <Star className="w-3 h-3 m-1" />
                 Level {userStats.level}
@@ -206,12 +206,12 @@ export function Dashboard() {
           </TabsList>
 
           <TabsContent value="lessons" className="space-y-6">
-            <div className="flex items-center justify-between">
+            <div className="flex items-center justify-between flex-wrap gap-4 mb-4">
               <div>
-                <h2 className="text-3xl font-bold text-primary">Continue Learning</h2>
+                <h2 className="text-3xl font-bold text-primary pt-5">Continue Learning</h2>
                 <p className="text-lg text-red-500">Pick up where you left off</p>
               </div>
-              <Button className="hover:bg-accent/20 hover:text-primary flex w-auto flex-wrap bg-primary rounded-lg justify-between gap-2">
+              <Button className="hover:bg-accent/20 hover:text-primary flex-wrap bg-primary rounded-lg justify-between gap-2">
                 <Play className="w-4 h-4" />
                 Start Daily Lesson
               </Button>
@@ -226,7 +226,7 @@ export function Dashboard() {
 
           <TabsContent value="exercises" className="space-y-6">
             <div>
-              <h2 className="text-3xl font-bold text-primary">Practice Exercises</h2>
+              <h2 className="text-3xl font-bold text-primary pt-5">Practice Exercises</h2>
               <p className="text-lg text-red-500">Test your knowledge with interactive exercises</p>
             </div>
 
@@ -239,7 +239,7 @@ export function Dashboard() {
 
           <TabsContent value="progress" className="space-y-6">
             <div>
-              <h2 className="text-3xl font-bold text-primary">Your Progress</h2>
+              <h2 className="text-3xl font-bold text-primary pt-5">Your Progress</h2>
               <p className="text-lg text-red-500">Track your learning journey</p>
             </div>
 
@@ -295,7 +295,7 @@ export function Dashboard() {
 
           <TabsContent value="achievements" className="space-y-6">
             <div>
-              <h2 className="text-3xl font-bold text-primary">Achievements</h2>
+              <h2 className="text-3xl font-bold text-primary pt-5">Achievements</h2>
               <p className="text-lg text-red-500">Celebrate your learning milestones</p>
             </div>
 
