@@ -187,19 +187,19 @@ export function Dashboard() {
         <Tabs value={activeTab} onValueChange={setActiveTab} className="space-y-6">
           <TabsList className="grid w-full grid-cols-4 bg-balance gap-5 rounded-lg">
             <TabsTrigger value="lessons" className="gap-2 bg-primary hover:bg-accent/20 hover:text-primary text-md">
-              <BookOpen className="w-4 h-4" />
+              <BookOpen className="w-4 h-4" display={"flex"} />
               Lessons
             </TabsTrigger>
             <TabsTrigger value="exercises" className="gap-2 bg-primary hover:bg-accent/20 hover:text-primary text-md">
-              <PenTool className="w-4 h-4" />
+              <PenTool className="w-4 h-4" display={"flex"} />
               Exercises
             </TabsTrigger>
             <TabsTrigger value="progress" className="gap-2 bg-primary hover:bg-accent/20 hover:text-primary text-md">
-              <TrendingUp className="w-4 h-4" />
+              <TrendingUp className="w-4 h-4" display={"flex"} />
               Progress
             </TabsTrigger>
             <TabsTrigger value="achievements" className="gap-2 bg-primary hover:bg-accent/20 hover:text-primary text-md">
-              <Award className="w-4 h-4" />
+              <Award className="w-4 h-4" display={"flex"} />
               Achievements
             </TabsTrigger>
           </TabsList>
