@@ -211,7 +211,7 @@ export function Dashboard() {
                 <h2 className="text-3xl font-bold text-primary">Continue Learning</h2>
                 <p className="text-lg text-red-500">Pick up where you left off</p>
               </div>
-              <Button className="gap-2  hover:bg-accent/20 hover:text-primary">
+              <Button className="hover:bg-accent/20 hover:text-primary flex w-auto flex-wrap bg-primary rounded-lg justify-between gap-2">
                 <Play className="w-4 h-4" />
                 Start Daily Lesson
               </Button>
