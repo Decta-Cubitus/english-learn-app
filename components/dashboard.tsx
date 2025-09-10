@@ -38,6 +38,15 @@ export function Dashboard() {
   const recentLessons = [
     {
       id: 1,
+      title: "Pronunciation Practice",
+      description: "Master difficult English sounds",
+      difficulty: "Beginner",
+      duration: "10 min",
+      completed: false,
+      progress: 60,
+    },
+    {
+      id: 2,
       title: "Present Perfect Tense",
       description: "Learn when and how to use present perfect",
       difficulty: "Intermediate",
@@ -46,7 +55,7 @@ export function Dashboard() {
       progress: 0,
     },
     {
-      id: 2,
+      id: 3,
       title: "Business Vocabulary",
       description: "Essential words for professional communication",
       difficulty: "Advanced",
@@ -54,15 +63,7 @@ export function Dashboard() {
       completed: true,
       progress: 100,
     },
-    {
-      id: 3,
-      title: "Pronunciation Practice",
-      description: "Master difficult English sounds",
-      difficulty: "Beginner",
-      duration: "10 min",
-      completed: false,
-      progress: 60,
-    },
+
   ]
 
   const exercises = [
