@@ -73,7 +73,8 @@
   },
   "pnpm": {
     "overrides": {
-      "postcss": "^8.5.10"
+      "postcss": "^8.5.10",
+      "source-map-js": ">=1.2.2"
     }
   },
   "packageManager": "pnpm@10.33.0"
